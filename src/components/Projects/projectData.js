@@ -38,11 +38,41 @@ const projects = [{
     title: 'Wanted',
     imgUrl: 'eight',
 },
-{
-    id: 9,
-    title: 'Angels',
-    imgUrl: 'nine',
-  }
+  {
+      id: 9,
+      title: 'Angels',
+      imgUrl: 'nine',
+  },
+  {
+      id: 10,
+      title: 'Bruteone',
+      imgUrl: 'ten',
+  },
+  {
+      id: 11,
+      title: 'Chill Game',
+      imgUrl: 'elven',
+  },
+  {
+      id: 12,
+      title: 'Crown',
+      imgUrl: 'twelve',
+  },
+  {
+      id: 13,
+      title: 'Squid Game',
+      imgUrl: 'thirteen',
+  },
+  {
+      id: 14,
+      title: 'Briderton',
+      imgUrl: 'fourteen',
+  },
+  {
+      id: 15,
+      title: 'Sex Education',
+      imgUrl: 'fifteen',
+  },
 ];
 
 export default projects;
