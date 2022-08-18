@@ -27,6 +27,7 @@ export default {
   five,
   six,
   seven,
+  
   eight,
   nine,
   ten,
@@ -35,7 +36,7 @@ export default {
   thirteen,
   fourteen,
   fifteen,
-  
+
   email,
   mobile,
   logo
