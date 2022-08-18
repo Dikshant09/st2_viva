@@ -1,0 +1,89 @@
+.projectContainer{
+    width: 20vw;
+    height: 25vh;
+    margin : 1rem;
+    display: flex;
+    flex-direction: column;
+
+    &:hover{
+        cursor: pointer;
+    
+        .imageBro{
+          transform: scale(1.1);
+          transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+        }
+    
+        & .content{
+          opacity: 0.9;
+        }        
+    }
+    border-radius: 15px;
+      
+    .imageBro{
+        width: 100%;
+        height: 80%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 15px;
+        object-fit: cover;
+
+        &:hover{
+            transition: 0.3s all cubic-bezier(0.6, -0.28, 0.735, 0.045);
+        }
+    }
+    
+    .title{
+        text-align: center;
+        margin-top: 10px;
+        font-size: 1.2rem;
+    }
+    
+    overflow: hidden;
+
+    @media screen and (max-width: 800px) {  
+        width: 20vw;
+        height: 25vh;
+
+        .imageBro{
+            width: 140px;
+            height: 140px;
+        }
+
+        .title{
+            margin: 1rem;
+            font-size: 1rem;
+        }
+    }
+
+    @media screen and (max-width: 500px) {  
+        width: 30vw;
+        height: 45vh;
+
+        .imageBro{
+            width: 120px;
+            height: 80px;
+        }
+
+        height: 8rem;
+        margin: 1rem;
+
+        .title{
+            // margin: 1rem;
+            font-size: 0.75rem;
+        }
+        align-items: center;
+
+    }
+    
+}
+/*
+    supportdesk,
+    github,
+    housemarketplace,
+    feedback,
+    monster,
+    heartdisease,
+    bulldozer,
+    dog,
+    diseaseprediction
+*/
